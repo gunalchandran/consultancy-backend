@@ -23,7 +23,7 @@ import io
 load_dotenv()
 app = Flask(__name__)
 
-CORS(app, resources={r"/*": {"origins": "*"}})
+CORS(app, resources={r"/*": {"origins": ["https://admin-orpin-one.vercel.app"]}})
 
 app.config["MONGO_URI"] = os.getenv("MONGO_URI")
 mongo = PyMongo(app)
