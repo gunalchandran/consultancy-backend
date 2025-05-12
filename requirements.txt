@@ -1,0 +1,10 @@
+Flask
+flask-pymongo
+flask-cors
+flask-bcrypt
+flask-jwt-extended
+python-dotenv
+reportlab
+werkzeug
+pymongo
+dnspython
